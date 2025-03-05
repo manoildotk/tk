@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To The Kingdom - Loja Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>To The Kingdom</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="banner">
+      <h2>Estilo para o seu dia a dia</h2>
+      <p>Confira nossa nova coleção!</p>
+      <a href="#products" class="btn">Explorar Produtos</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Produtos em Destaque</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="camiseta.jpg" alt="Camiseta Streetwear">
+        <h3>Camiseta Streetwear</h3>
+        <p>R$ 99,90</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="hoodie.jpg" alt="Hoodie Casual">
+        <h3>Hoodie Casual</h3>
+        <p>R$ 199,90</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="acessorio.jpg" alt="Boné">
+        <h3>Boné Estiloso</h3>
+        <p>R$ 79,90</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nós</h2>
+    <p>A To The Kingdom é uma marca de streetwear que mistura estilo e conforto. Nosso objetivo é inspirar você a expressar sua personalidade através da moda.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 To The Kingdom. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
